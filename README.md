@@ -49,7 +49,7 @@ For remote deployments, the MCP server runs on the same host as Claude Code. An 
 **1. Clone and install**
 
 ```bash
-git clone <repo>
+git clone https://github.com/Uvemode/openhole
 cd openhole/server
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
