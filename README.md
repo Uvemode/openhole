@@ -27,8 +27,8 @@ Claude never sees the original values. The mapping table lives only in Gemini's 
 Ghostty
 └── Zellij (local or remote)
     ├── Pane A: Gemini CLI  ──────────────────────────────┐
-    └── Pane B: Claude Code  <── zellij write-chars ──┐  │
-                                                       │  │
+    └── Pane B: Claude Code  <── zellij write-chars ──┐   │
+                                                      │   │
                                               MCP Server (Python)
                                               localhost:3000
 ```
