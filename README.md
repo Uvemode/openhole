@@ -85,13 +85,7 @@ gemini mcp add --transport http --scope user claude-proxy http://127.0.0.1:3000/
 
 **6. Load the system prompt**
 
-Copy `.gemini/system_prompt.md` to your project's `.gemini/` directory, or set it globally in `~/.gemini/settings.json`:
-
-```json
-{
-  "systemPrompt": "/path/to/openhole/.gemini/system_prompt.md"
-}
-```
+Gemini CLI automatically loads `.gemini/system.md` from the project directory. The file is already in place at `.gemini/system.md` - no configuration needed.
 
 **7. (Remote only) SSH tunnel**
 
