@@ -1,6 +1,8 @@
 # openhole
 
-![loophole](loophole.gif)
+<p align="center">
+  <img src="loophole.gif" width="100%" />
+</p>
 
 A privacy proxy that lets you use Claude Code as the analysis backend while keeping confidential data out of Anthropic's infrastructure. Gemini CLI acts as the user-facing interface and anonymizes sensitive content before it reaches Claude.
 
